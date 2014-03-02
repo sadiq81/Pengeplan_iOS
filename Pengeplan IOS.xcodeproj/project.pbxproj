@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372B3679CBC645EC9207067E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB92861BE8424BFFB1A42D74 /* libPods.a */; };
+		782D8AA918BF6BE900E01EF6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D8AA518BF6BE900E01EF6 /* CFNetwork.framework */; };
+		782D8AAA18BF6BE900E01EF6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D8AA618BF6BE900E01EF6 /* CoreData.framework */; };
+		782D8AAB18BF6BE900E01EF6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D8AA718BF6BE900E01EF6 /* MobileCoreServices.framework */; };
+		782D8AAC18BF6BEA00E01EF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D8AA818BF6BE900E01EF6 /* SystemConfiguration.framework */; };
+		78980EAC18C36904003C2E2D /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 78980EAB18C36904003C2E2D /* Transaction.m */; };
+		78A5266F18BF426200176D6D /* OverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A5266E18BF426200176D6D /* OverviewViewController.m */; };
+		78B76FA318C366F000D28E1A /* Pengeplan IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78B76FA118C366F000D28E1A /* Pengeplan IOS.xcdatamodeld */; };
+		78D1CD3818BE345D008C61A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1CD3718BE345D008C61A5 /* Foundation.framework */; };
+		78D1CD3A18BE345D008C61A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1CD3918BE345D008C61A5 /* CoreGraphics.framework */; };
+		78D1CD3C18BE345E008C61A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1CD3B18BE345E008C61A5 /* UIKit.framework */; };
+		78D1CD4218BE345E008C61A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78D1CD4018BE345E008C61A5 /* InfoPlist.strings */; };
+		78D1CD4418BE345E008C61A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D1CD4318BE345E008C61A5 /* main.m */; };
+		78D1CD4818BE345E008C61A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D1CD4718BE345E008C61A5 /* AppDelegate.m */; };
+		78D1CD4B18BE345E008C61A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D1CD4918BE345E008C61A5 /* Main.storyboard */; };
+		78D1CD4E18BE345E008C61A5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D1CD4D18BE345E008C61A5 /* LoginViewController.m */; };
+		78D1CD5018BE345E008C61A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D1CD4F18BE345E008C61A5 /* Images.xcassets */; };
+		78D1CD5718BE345E008C61A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1CD5618BE345E008C61A5 /* XCTest.framework */; };
+		78D1CD5818BE345E008C61A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1CD3718BE345D008C61A5 /* Foundation.framework */; };
+		78D1CD5918BE345E008C61A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1CD3B18BE345E008C61A5 /* UIKit.framework */; };
+		78D1CD6118BE345E008C61A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78D1CD5F18BE345E008C61A5 /* InfoPlist.strings */; };
+		78D1CD6318BE345E008C61A5 /* Pengeplan_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D1CD6218BE345E008C61A5 /* Pengeplan_IOSTests.m */; };
+		C130B44539BB8FCB432082DF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C130B8856C8B6108A4CE000D /* Security.framework */; };
+		C130B57BF8E78D0A9AA5A3F0 /* CustomUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C130B2662B447D8CB9C59DDF /* CustomUIViewController.m */; };
+		C130B9FB5C4749805E047FCD /* PengeplanService.m in Sources */ = {isa = PBXBuildFile; fileRef = C130B44D517E02FF8DE57120 /* PengeplanService.m */; };
+		C130BD220AEE2D6768FFC445 /* AuthResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C130B37B18C034B1449DED9B /* AuthResponse.m */; };
+		C130BFCAF9B92BC6F962070A /* LoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = C130B9A2E541D7E6BFB485B0 /* LoginService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78D1CD5A18BE345E008C61A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78D1CD2C18BE345D008C61A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D1CD3318BE345D008C61A5;
+			remoteInfo = "Pengeplan IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		782D8AA518BF6BE900E01EF6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		782D8AA618BF6BE900E01EF6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		782D8AA718BF6BE900E01EF6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		782D8AA818BF6BE900E01EF6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		78980EAA18C36904003C2E2D /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transaction.h; path = "Pengeplan IOS/Transaction.h"; sourceTree = "<group>"; };
+		78980EAB18C36904003C2E2D /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transaction.m; path = "Pengeplan IOS/Transaction.m"; sourceTree = "<group>"; };
+		78A5266D18BF426200176D6D /* OverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverviewViewController.h; path = "Pengeplan IOS/OverviewViewController.h"; sourceTree = "<group>"; };
+		78A5266E18BF426200176D6D /* OverviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OverviewViewController.m; path = "Pengeplan IOS/OverviewViewController.m"; sourceTree = "<group>"; };
+		78B76FA218C366F000D28E1A /* Pengeplan IOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Pengeplan IOS.xcdatamodel"; sourceTree = "<group>"; };
+		78D1CD3418BE345D008C61A5 /* Pengeplan IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pengeplan IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D1CD3718BE345D008C61A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78D1CD3918BE345D008C61A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78D1CD3B18BE345E008C61A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78D1CD3F18BE345E008C61A5 /* Pengeplan IOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pengeplan IOS-Info.plist"; sourceTree = "<group>"; };
+		78D1CD4118BE345E008C61A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78D1CD4318BE345E008C61A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78D1CD4518BE345E008C61A5 /* Pengeplan IOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pengeplan IOS-Prefix.pch"; sourceTree = "<group>"; };
+		78D1CD4618BE345E008C61A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78D1CD4718BE345E008C61A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78D1CD4A18BE345E008C61A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78D1CD4C18BE345E008C61A5 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = "Pengeplan IOS/LoginViewController.h"; sourceTree = "<group>"; };
+		78D1CD4D18BE345E008C61A5 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = "Pengeplan IOS/LoginViewController.m"; sourceTree = "<group>"; };
+		78D1CD4F18BE345E008C61A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78D1CD5518BE345E008C61A5 /* Pengeplan IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pengeplan IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D1CD5618BE345E008C61A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		78D1CD5E18BE345E008C61A5 /* Pengeplan IOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pengeplan IOSTests-Info.plist"; sourceTree = "<group>"; };
+		78D1CD6018BE345E008C61A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78D1CD6218BE345E008C61A5 /* Pengeplan_IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pengeplan_IOSTests.m; sourceTree = "<group>"; };
+		BBA7DC58D1D347E7A29E44DB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		C130B2662B447D8CB9C59DDF /* CustomUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUIViewController.m; sourceTree = "<group>"; };
+		C130B2DBC8AC192A667253D3 /* CustomUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUIViewController.h; sourceTree = "<group>"; };
+		C130B37B18C034B1449DED9B /* AuthResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthResponse.m; sourceTree = "<group>"; };
+		C130B44D517E02FF8DE57120 /* PengeplanService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PengeplanService.m; sourceTree = "<group>"; };
+		C130B8856C8B6108A4CE000D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C130B9A2E541D7E6BFB485B0 /* LoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginService.m; sourceTree = "<group>"; };
+		C130BB9399C9CE7F0BCBEE94 /* PengeplanService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PengeplanService.h; sourceTree = "<group>"; };
+		C130BE2370E75A68B61AC9E6 /* LoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginService.h; sourceTree = "<group>"; };
+		C130BFB54D93E61C4A82DB7C /* AuthResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthResponse.h; sourceTree = "<group>"; };
+		DB92861BE8424BFFB1A42D74 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78D1CD3118BE345D008C61A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782D8AA918BF6BE900E01EF6 /* CFNetwork.framework in Frameworks */,
+				782D8AAA18BF6BE900E01EF6 /* CoreData.framework in Frameworks */,
+				782D8AAB18BF6BE900E01EF6 /* MobileCoreServices.framework in Frameworks */,
+				782D8AAC18BF6BEA00E01EF6 /* SystemConfiguration.framework in Frameworks */,
+				78D1CD3A18BE345D008C61A5 /* CoreGraphics.framework in Frameworks */,
+				78D1CD3C18BE345E008C61A5 /* UIKit.framework in Frameworks */,
+				78D1CD3818BE345D008C61A5 /* Foundation.framework in Frameworks */,
+				372B3679CBC645EC9207067E /* libPods.a in Frameworks */,
+				C130B44539BB8FCB432082DF /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D1CD5218BE345E008C61A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D1CD5718BE345E008C61A5 /* XCTest.framework in Frameworks */,
+				78D1CD5918BE345E008C61A5 /* UIKit.framework in Frameworks */,
+				78D1CD5818BE345E008C61A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78A5266818BEA86100176D6D /* BL */ = {
+			isa = PBXGroup;
+			children = (
+				C130B44D517E02FF8DE57120 /* PengeplanService.m */,
+				C130BB9399C9CE7F0BCBEE94 /* PengeplanService.h */,
+				C130B9A2E541D7E6BFB485B0 /* LoginService.m */,
+				C130BE2370E75A68B61AC9E6 /* LoginService.h */,
+			);
+			name = BL;
+			sourceTree = "<group>";
+		};
+		78A5266918BF336600176D6D /* DAL */ = {
+			isa = PBXGroup;
+			children = (
+				C130B37B18C034B1449DED9B /* AuthResponse.m */,
+				C130BFB54D93E61C4A82DB7C /* AuthResponse.h */,
+				78980EAA18C36904003C2E2D /* Transaction.h */,
+				78980EAB18C36904003C2E2D /* Transaction.m */,
+			);
+			name = DAL;
+			sourceTree = "<group>";
+		};
+		78A5267018BF426C00176D6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78A5266D18BF426200176D6D /* OverviewViewController.h */,
+				78A5266E18BF426200176D6D /* OverviewViewController.m */,
+				78D1CD4918BE345E008C61A5 /* Main.storyboard */,
+				78D1CD4C18BE345E008C61A5 /* LoginViewController.h */,
+				78D1CD4D18BE345E008C61A5 /* LoginViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		78D1CD2B18BE345D008C61A5 = {
+			isa = PBXGroup;
+			children = (
+				78A5267018BF426C00176D6D /* View */,
+				78A5266918BF336600176D6D /* DAL */,
+				78A5266818BEA86100176D6D /* BL */,
+				78D1CD3D18BE345E008C61A5 /* Pengeplan IOS */,
+				78D1CD5C18BE345E008C61A5 /* Pengeplan IOSTests */,
+				78D1CD3618BE345D008C61A5 /* Frameworks */,
+				78D1CD3518BE345D008C61A5 /* Products */,
+				BBA7DC58D1D347E7A29E44DB /* Pods.xcconfig */,
+				C130B56F6256B6F476BC294E /* CustomClasses */,
+			);
+			sourceTree = "<group>";
+		};
+		78D1CD3518BE345D008C61A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78D1CD3418BE345D008C61A5 /* Pengeplan IOS.app */,
+				78D1CD5518BE345E008C61A5 /* Pengeplan IOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78D1CD3618BE345D008C61A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				782D8AA518BF6BE900E01EF6 /* CFNetwork.framework */,
+				782D8AA618BF6BE900E01EF6 /* CoreData.framework */,
+				782D8AA718BF6BE900E01EF6 /* MobileCoreServices.framework */,
+				782D8AA818BF6BE900E01EF6 /* SystemConfiguration.framework */,
+				78D1CD3718BE345D008C61A5 /* Foundation.framework */,
+				78D1CD3918BE345D008C61A5 /* CoreGraphics.framework */,
+				78D1CD3B18BE345E008C61A5 /* UIKit.framework */,
+				78D1CD5618BE345E008C61A5 /* XCTest.framework */,
+				DB92861BE8424BFFB1A42D74 /* libPods.a */,
+				C130B8856C8B6108A4CE000D /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78D1CD3D18BE345E008C61A5 /* Pengeplan IOS */ = {
+			isa = PBXGroup;
+			children = (
+				78D1CD4618BE345E008C61A5 /* AppDelegate.h */,
+				78D1CD4718BE345E008C61A5 /* AppDelegate.m */,
+				78D1CD4F18BE345E008C61A5 /* Images.xcassets */,
+				78D1CD3E18BE345E008C61A5 /* Supporting Files */,
+			);
+			path = "Pengeplan IOS";
+			sourceTree = "<group>";
+		};
+		78D1CD3E18BE345E008C61A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78D1CD3F18BE345E008C61A5 /* Pengeplan IOS-Info.plist */,
+				78D1CD4018BE345E008C61A5 /* InfoPlist.strings */,
+				78D1CD4318BE345E008C61A5 /* main.m */,
+				78D1CD4518BE345E008C61A5 /* Pengeplan IOS-Prefix.pch */,
+				78B76FA118C366F000D28E1A /* Pengeplan IOS.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78D1CD5C18BE345E008C61A5 /* Pengeplan IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				78D1CD6218BE345E008C61A5 /* Pengeplan_IOSTests.m */,
+				78D1CD5D18BE345E008C61A5 /* Supporting Files */,
+			);
+			path = "Pengeplan IOSTests";
+			sourceTree = "<group>";
+		};
+		78D1CD5D18BE345E008C61A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78D1CD5E18BE345E008C61A5 /* Pengeplan IOSTests-Info.plist */,
+				78D1CD5F18BE345E008C61A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C130B56F6256B6F476BC294E /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C130B2662B447D8CB9C59DDF /* CustomUIViewController.m */,
+				C130B2DBC8AC192A667253D3 /* CustomUIViewController.h */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78D1CD3318BE345D008C61A5 /* Pengeplan IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D1CD6618BE345E008C61A5 /* Build configuration list for PBXNativeTarget "Pengeplan IOS" */;
+			buildPhases = (
+				8A665F9980444DC0A09EC855 /* Check Pods Manifest.lock */,
+				78D1CD3018BE345D008C61A5 /* Sources */,
+				78D1CD3118BE345D008C61A5 /* Frameworks */,
+				78D1CD3218BE345D008C61A5 /* Resources */,
+				AF2DAA51D8614FBE96555D68 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pengeplan IOS";
+			productName = "Pengeplan IOS";
+			productReference = 78D1CD3418BE345D008C61A5 /* Pengeplan IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78D1CD5418BE345E008C61A5 /* Pengeplan IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D1CD6918BE345E008C61A5 /* Build configuration list for PBXNativeTarget "Pengeplan IOSTests" */;
+			buildPhases = (
+				78D1CD5118BE345E008C61A5 /* Sources */,
+				78D1CD5218BE345E008C61A5 /* Frameworks */,
+				78D1CD5318BE345E008C61A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78D1CD5B18BE345E008C61A5 /* PBXTargetDependency */,
+			);
+			name = "Pengeplan IOSTests";
+			productName = "Pengeplan IOSTests";
+			productReference = 78D1CD5518BE345E008C61A5 /* Pengeplan IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78D1CD2C18BE345D008C61A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tommy Sadiq Hinrichsen";
+				TargetAttributes = {
+					78D1CD3318BE345D008C61A5 = {
+						DevelopmentTeam = 2Z296RX4K9;
+					};
+					78D1CD5418BE345E008C61A5 = {
+						TestTargetID = 78D1CD3318BE345D008C61A5;
+					};
+				};
+			};
+			buildConfigurationList = 78D1CD2F18BE345D008C61A5 /* Build configuration list for PBXProject "Pengeplan IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78D1CD2B18BE345D008C61A5;
+			productRefGroup = 78D1CD3518BE345D008C61A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78D1CD3318BE345D008C61A5 /* Pengeplan IOS */,
+				78D1CD5418BE345E008C61A5 /* Pengeplan IOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78D1CD3218BE345D008C61A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D1CD5018BE345E008C61A5 /* Images.xcassets in Resources */,
+				78D1CD4218BE345E008C61A5 /* InfoPlist.strings in Resources */,
+				78D1CD4B18BE345E008C61A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D1CD5318BE345E008C61A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D1CD6118BE345E008C61A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A665F9980444DC0A09EC855 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF2DAA51D8614FBE96555D68 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78D1CD3018BE345D008C61A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D1CD4E18BE345E008C61A5 /* LoginViewController.m in Sources */,
+				78B76FA318C366F000D28E1A /* Pengeplan IOS.xcdatamodeld in Sources */,
+				78A5266F18BF426200176D6D /* OverviewViewController.m in Sources */,
+				78D1CD4818BE345E008C61A5 /* AppDelegate.m in Sources */,
+				78D1CD4418BE345E008C61A5 /* main.m in Sources */,
+				C130B9FB5C4749805E047FCD /* PengeplanService.m in Sources */,
+				C130BFCAF9B92BC6F962070A /* LoginService.m in Sources */,
+				C130B57BF8E78D0A9AA5A3F0 /* CustomUIViewController.m in Sources */,
+				78980EAC18C36904003C2E2D /* Transaction.m in Sources */,
+				C130BD220AEE2D6768FFC445 /* AuthResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D1CD5118BE345E008C61A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D1CD6318BE345E008C61A5 /* Pengeplan_IOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78D1CD5B18BE345E008C61A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78D1CD3318BE345D008C61A5 /* Pengeplan IOS */;
+			targetProxy = 78D1CD5A18BE345E008C61A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78D1CD4018BE345E008C61A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D1CD4118BE345E008C61A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78D1CD4918BE345E008C61A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D1CD4A18BE345E008C61A5 /* Base */,
+			);
+			name = Main.storyboard;
+			path = "Pengeplan IOS";
+			sourceTree = "<group>";
+		};
+		78D1CD5F18BE345E008C61A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D1CD6018BE345E008C61A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78D1CD6418BE345E008C61A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78D1CD6518BE345E008C61A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78D1CD6718BE345E008C61A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA7DC58D1D347E7A29E44DB /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pengeplan IOS/Pengeplan IOS-Prefix.pch";
+				INFOPLIST_FILE = "Pengeplan IOS/Pengeplan IOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78D1CD6818BE345E008C61A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA7DC58D1D347E7A29E44DB /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pengeplan IOS/Pengeplan IOS-Prefix.pch";
+				INFOPLIST_FILE = "Pengeplan IOS/Pengeplan IOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		78D1CD6A18BE345E008C61A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pengeplan IOS.app/Pengeplan IOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pengeplan IOS/Pengeplan IOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pengeplan IOSTests/Pengeplan IOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		78D1CD6B18BE345E008C61A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pengeplan IOS.app/Pengeplan IOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pengeplan IOS/Pengeplan IOS-Prefix.pch";
+				INFOPLIST_FILE = "Pengeplan IOSTests/Pengeplan IOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78D1CD2F18BE345D008C61A5 /* Build configuration list for PBXProject "Pengeplan IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D1CD6418BE345E008C61A5 /* Debug */,
+				78D1CD6518BE345E008C61A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D1CD6618BE345E008C61A5 /* Build configuration list for PBXNativeTarget "Pengeplan IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D1CD6718BE345E008C61A5 /* Debug */,
+				78D1CD6818BE345E008C61A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D1CD6918BE345E008C61A5 /* Build configuration list for PBXNativeTarget "Pengeplan IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D1CD6A18BE345E008C61A5 /* Debug */,
+				78D1CD6B18BE345E008C61A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		78B76FA118C366F000D28E1A /* Pengeplan IOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				78B76FA218C366F000D28E1A /* Pengeplan IOS.xcdatamodel */,
+			);
+			currentVersion = 78B76FA218C366F000D28E1A /* Pengeplan IOS.xcdatamodel */;
+			path = "Pengeplan IOS.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 78D1CD2C18BE345D008C61A5 /* Project object */;
+}
