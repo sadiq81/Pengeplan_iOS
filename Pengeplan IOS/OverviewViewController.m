@@ -8,28 +8,43 @@
 
 #import "OverviewViewController.h"
 #import "PengeplanService.h"
+#import "AppDelegate.h"
+#import "SecuritiesViewController.h"
 
 @interface OverviewViewController ()
 
 @end
 
+const CGRect securitiesShow = {{0, 70}, {320, 498}};
+const CGRect securitiesHide = {{-320, 70}, {320, 498}};
+
+const CGRect depositoriesShow = {{0, 70}, {320, 498}};
+const CGRect depositoriesHide = {{0, 568}, {320, 498}};
+
+const CGRect historyShow = {{0, 70}, {320, 498}};
+const CGRect historyHide = {{320, 70}, {320, 498}};
+
 @implementation OverviewViewController
 
-NSArray *views;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
     }
-    return self;
 
+    return self;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    views = [[NSArray alloc] initWithObjects:_securities, _depositories, _history, nil];
-    [[PengeplanService sharedPengeplanService] updateTransactions];
+    self.securitiesTableView.delegate = [SecuritiesViewController sharedSegmentedViewController:self.securitiesTableView];
+    self.securitiesTableView.dataSource = [SecuritiesViewController sharedSegmentedViewController:self.securitiesTableView];
+    self.securitiesTableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+
+//    [[PengeplanService sharedPengeplanService] updateTransactions];
+    //[self getAllPhoneBookRecords];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -38,13 +53,48 @@ NSArray *views;
 
 - (IBAction)segmentedControl:(id)sender {
     UISegmentedControl *segmentedControl = (UISegmentedControl *) sender;
+
+    segmentedControl.enabled = NO;
     int selected = [segmentedControl selectedSegmentIndex];
-    for (int i = 0; i < segmentedControl.numberOfSegments; i++) {
-        UIView *view = [views objectAtIndex:i];
-        if (selected == i) {
-            view.hidden = false;
-        } else {
-            view.hidden = true;
+    switch (selected) {
+        case 0: {
+            [UIView animateWithDuration:1.0 animations:^{
+                self.securities.frame = securitiesShow;
+                self.securities.hidden = NO;
+                self.depositories.frame = depositoriesHide;
+                self.history.frame = historyHide;
+            }                completion:^(BOOL finished) {
+                segmentedControl.enabled = YES;
+                self.depositories.hidden = YES;
+                self.history.hidden = YES;
+            }];
+            break;
+        }
+        case 1: {
+            [UIView animateWithDuration:1.0 animations:^{
+                self.securities.frame = securitiesHide;
+                self.depositories.frame = depositoriesShow;
+                self.depositories.hidden = NO;
+                self.history.frame = historyHide;
+            }                completion:^(BOOL finished) {
+                segmentedControl.enabled = YES;
+                self.securities.hidden = YES;
+                self.history.hidden = YES;
+            }];
+            break;
+        }
+        case 2: {
+            [UIView animateWithDuration:1.0 animations:^{
+                self.securities.frame = securitiesHide;
+                self.depositories.frame = depositoriesHide;
+                self.history.frame = historyShow;
+                self.history.hidden = NO;
+            }                completion:^(BOOL finished) {
+                segmentedControl.enabled = YES;
+                self.securities.hidden = YES;
+                self.depositories.hidden = YES;
+            }];
+            break;
         }
     }
 }

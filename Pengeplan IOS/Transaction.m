@@ -14,6 +14,7 @@
 @dynamic id;
 @dynamic transactionType;
 @dynamic date;
+@dynamic paperName;
 @dynamic stockExchange;
 @dynamic currency;
 @dynamic numberOfItems;

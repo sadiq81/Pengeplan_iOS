@@ -9,12 +9,13 @@
         <attribute name="localAmount" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="numberOfItems" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="ownedAccount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paperName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="stockExchange" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="transactionType" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="valuation" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Transaction" positionX="0" positionY="0" width="128" height="208"/>
+        <element name="Transaction" positionX="0" positionY="0" width="0" height="0"/>
     </elements>
 </model>

@@ -50,6 +50,7 @@ NSString *pin;
         self.password.text = @"";
         [self.username setEnabled:YES];
         [self.password setEnabled:YES];
+        self.pin.text = @"";
         self.username.textColor = [UIColor blackColor];
         self.password.textColor = [UIColor blackColor];
         pin = nil;
@@ -62,6 +63,7 @@ NSString *pin;
     [[LoginService sharedLoginService] login:self.username.text password:self.password.text save:self.remember.isOn pin:self.pin.text];
 }
 
+//TODO enter in pin or password should trigger login attempt
 
 - (void)handleAuthResponse:(NSNotification *)notification {
 
@@ -72,7 +74,7 @@ NSString *pin;
         } else if (pin != nil && ![self.pin.text isEqualToString:pin]) {
             [[[UIAlertView alloc] initWithTitle:@"Pin wrong" message:@"You have entered an incorrect pin." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
         }
-    } else if (![authResponse errorOnAuth]){
+    } else if (![authResponse errorOnAuth]) {
         [[[UIAlertView alloc] initWithTitle:@"Login failed" message:@"Login failed, wrong username and/or password." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
     }
 }

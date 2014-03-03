@@ -15,6 +15,7 @@
 @property(nonatomic, retain) NSString *id;
 @property(nonatomic, retain) NSString *transactionType;
 @property(nonatomic, retain) NSDate *date;
+@property(nonatomic, retain) NSString *paperName;
 @property(nonatomic, retain) NSString *stockExchange;
 @property(nonatomic, retain) NSString *currency;
 @property(nonatomic, retain) NSNumber *numberOfItems;

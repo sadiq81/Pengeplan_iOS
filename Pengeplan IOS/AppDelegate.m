@@ -84,7 +84,7 @@
     RKManagedObjectStore *managedObjectStore = [RKManagedObjectStore defaultStore];
     RKRoute *transactionRoute = [RKRoute routeWithClass:[Transaction class] pathPattern:@"transactions/:username" method:RKRequestMethodGET];
     RKEntityMapping *transactionMapping = [RKEntityMapping mappingForEntityForName:@"Transaction" inManagedObjectStore:managedObjectStore];
-    [transactionMapping addAttributeMappingsFromArray:@[@"id", @"transactionType", @"date", @"stockExchange", @"currency", @"numberOfItems", @"valuation", @"amount", @"legalEntity", @"ownedAccount", @"localAmount"]];
+    [transactionMapping addAttributeMappingsFromArray:@[@"id", @"transactionType", @"date",@"paperName", @"stockExchange", @"currency", @"numberOfItems", @"valuation", @"amount", @"legalEntity", @"ownedAccount", @"localAmount"]];
     transactionMapping.identificationAttributes = @[@"id"];
 
     RKResponseDescriptor *transactionResponseDescriptor = [RKResponseDescriptor

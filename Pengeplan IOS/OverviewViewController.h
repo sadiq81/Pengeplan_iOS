@@ -16,6 +16,11 @@
 @property (weak, nonatomic) IBOutlet UIView *depositories;
 @property (weak, nonatomic) IBOutlet UIView *history;
 
+@property (weak, nonatomic) IBOutlet UITableView *securitiesTableView;
+
 - (IBAction)segmentedControl:(id)sender;
+
+
+
 
 @end
