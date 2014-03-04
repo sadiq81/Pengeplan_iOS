@@ -7,9 +7,7 @@
 //
 
 #import "OverviewViewController.h"
-#import "PengeplanService.h"
-#import "AppDelegate.h"
-#import "SecuritiesViewController.h"
+#import "TransactionsViewController.h"
 
 @interface OverviewViewController ()
 
@@ -37,14 +35,16 @@ const CGRect historyHide = {{320, 70}, {320, 498}};
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.securitiesTableView.delegate = [SecuritiesViewController sharedSegmentedViewController:self.securitiesTableView];
-    self.securitiesTableView.dataSource = [SecuritiesViewController sharedSegmentedViewController:self.securitiesTableView];
-    self.securitiesTableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+    [self configureSegmentedControlViews];
 
-//    [[PengeplanService sharedPengeplanService] updateTransactions];
-    //[self getAllPhoneBookRecords];
+
 }
 
+- (void)configureSegmentedControlViews {
+    self.securitiesViewController = [[SecuritiesViewController alloc] initWithTableView:self.securitiesTableView viewController:self];
+    self.depositoriesViewController = [[DepositoriesViewController alloc] initWithTableView:self.depositoriesTableView viewController:self];
+    self.historyViewController = [[HistoryViewController alloc] initWithTableView:self.historyTableView viewController:self];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -98,4 +98,11 @@ const CGRect historyHide = {{320, 70}, {320, 498}};
         }
     }
 }
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"historySeque"]) {
+        TransactionsViewController *destination = [segue destinationViewController];
+    }
+}
+
 @end

@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a6d4419-50fa-478c-9e03-c9e38faeaf87" name="Default" comment="addded icons">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DepositoriesViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DepositoriesViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HistoryViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HistoryViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SecuritiesViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SecuritiesViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SegmentedViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SegmentedViewController.m" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Pengeplan IOS/Images.xcassets/LaunchImage.launchimage/Default-568h@2x~iphone.png" afterPath="$PROJECT_DIR$/Pengeplan IOS/Images.xcassets/LaunchImage.launchimage/Default-568h@2x~iphone-1.png" />
+    <list default="true" id="1a6d4419-50fa-478c-9e03-c9e38faeaf87" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TransactionsViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TransactionsViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS.xcworkspace/xcuserdata/tommysadiqhinrichsen.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/Pengeplan IOS.xcworkspace/xcuserdata/tommysadiqhinrichsen.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS/AppDelegate.m" afterPath="$PROJECT_DIR$/Pengeplan IOS/AppDelegate.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS/Images.xcassets/LaunchImage.launchimage/Contents.json" afterPath="$PROJECT_DIR$/Pengeplan IOS/Images.xcassets/LaunchImage.launchimage/Contents.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS/LoginViewController.m" afterPath="$PROJECT_DIR$/Pengeplan IOS/LoginViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DepositoriesViewController.m" afterPath="$PROJECT_DIR$/DepositoriesViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HistoryViewController.h" afterPath="$PROJECT_DIR$/HistoryViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HistoryViewController.m" afterPath="$PROJECT_DIR$/HistoryViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/Pengeplan IOS/Base.lproj/Main.storyboard" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.h" afterPath="$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.m" afterPath="$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS/Transaction.h" afterPath="$PROJECT_DIR$/Pengeplan IOS/Transaction.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS/Transaction.m" afterPath="$PROJECT_DIR$/Pengeplan IOS/Transaction.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS/Pengeplan IOS.xcdatamodeld/Pengeplan IOS.xcdatamodel/contents" afterPath="$PROJECT_DIR$/Pengeplan IOS/Pengeplan IOS.xcdatamodeld/Pengeplan IOS.xcdatamodel/contents" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SecuritiesViewController.m" afterPath="$PROJECT_DIR$/SecuritiesViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SegmentedViewController.h" afterPath="$PROJECT_DIR$/SegmentedViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SegmentedViewController.m" afterPath="$PROJECT_DIR$/SegmentedViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pengeplan IOS.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -1254,6 +1247,11 @@
     <ignored path="Pods/Headers/JSONModel/JSONAPI.h" />
     <ignored path="Pods/Headers/JSONModel/JSONModelClassProperty.h" />
     <ignored path="Pods/Headers/JSONModel/NSArray+JSONModel.h" />
+    <ignored path="Build/Intermediates/" />
+    <ignored path="Build/Products/Debug-iphonesimulator/Pengeplan IOS.app/AppIcon29x29@2x.png" />
+    <ignored path="Build/Products/Debug-iphonesimulator/Pengeplan IOS.app/AppIcon40x40@2x.png" />
+    <ignored path="Build/Products/Debug-iphonesimulator/Pengeplan IOS.app/LaunchImage-700@2x.png" />
+    <ignored path="Build/Products/Debug-iphonesimulator/Pengeplan IOS.app/AppIcon60x60@2x.png" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1276,7 +1274,7 @@
       <file leaf-file-name="LoginViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pengeplan IOS/LoginViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="57" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1395">
+            <state line="73" column="33" selection-start="2278" selection-end="2278" vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="1365">
               <folding />
             </state>
           </provider>
@@ -1285,17 +1283,60 @@
       <file leaf-file-name="LoginViewController.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pengeplan IOS/LoginViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OverviewViewController.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HistoryViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HistoryViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="0" selection-start="3580" selection-end="3580" vertical-scroll-proportion="0.0" vertical-offset="562" max-vertical-offset="1275">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Pengeplan IOS/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OverviewViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="32" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.37709498" vertical-offset="315" max-vertical-offset="1560">
+            <state line="103" column="84" selection-start="3580" selection-end="3580" vertical-scroll-proportion="0.0" vertical-offset="997" max-vertical-offset="1710">
+              <folding>
+                <element signature="e#176#210#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionsViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TransactionsViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="52" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionsViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TransactionsViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="52" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2370">
+              <folding>
+                <element signature="e#124#162#0" expanded="true" />
+                <element signature="e#238#303#0" expanded="true" />
+                <marker date="1393955917000" expanded="false" signature="633:661" placeholder="(UINavigationItem *)item" />
+                <marker date="1393955917000" expanded="false" signature="671:689" placeholder="(BOOL)animated" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1303,7 +1344,7 @@
       <file leaf-file-name="SegmentedViewController.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SegmentedViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="52" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="375">
+            <state line="8" column="11" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -1312,26 +1353,11 @@
       <file leaf-file-name="SegmentedViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SegmentedViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="13" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="750">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pengeplan IOS/main.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecuritiesViewController.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SecuritiesViewController.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="61" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="255">
-              <folding />
+            <state line="22" column="49" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+              <folding>
+                <element signature="e#124#159#0" expanded="true" />
+                <element signature="e#231#296#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1339,7 +1365,7 @@
       <file leaf-file-name="SecuritiesViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SecuritiesViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="80" selection-start="3444" selection-end="3444" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1275">
+            <state line="38" column="29" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
               <folding />
             </state>
           </provider>
@@ -1363,29 +1389,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AuthResponse.m" />
-        <option value="$PROJECT_DIR$/PengeplanService.m" />
-        <option value="$PROJECT_DIR$/DataConstructor.h" />
-        <option value="$PROJECT_DIR$/DataConstructor.m" />
         <option value="$PROJECT_DIR$/Pengeplan IOS/Transaction.m" />
         <option value="$PROJECT_DIR$/Pengeplan IOS/AppDelegate.m" />
         <option value="$PROJECT_DIR$/Pengeplan IOS/Transaction.h" />
         <option value="$PROJECT_DIR$/DepositoriesViewController.h" />
-        <option value="$PROJECT_DIR$/HistoryViewController.h" />
-        <option value="$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.h" />
         <option value="$PROJECT_DIR$/Pengeplan IOS/LoginViewController.m" />
         <option value="$PROJECT_DIR$/SecuritiesViewController.h" />
-        <option value="$PROJECT_DIR$/SegmentedViewController.h" />
-        <option value="$PROJECT_DIR$/SegmentedViewController.m" />
         <option value="$PROJECT_DIR$/SecuritiesViewController.m" />
+        <option value="$PROJECT_DIR$/DepositoriesViewController.m" />
+        <option value="$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.h" />
+        <option value="$PROJECT_DIR$/HistoryViewController.h" />
+        <option value="$PROJECT_DIR$/SegmentedViewController.h" />
+        <option value="$PROJECT_DIR$/HistoryViewController.m" />
+        <option value="$PROJECT_DIR$/SegmentedViewController.m" />
+        <option value="$PROJECT_DIR$/TransactionsViewController.m" />
+        <option value="$PROJECT_DIR$/TransactionsViewController.h" />
         <option value="$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.m" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="52" />
+    <option name="x" value="48" />
     <option name="y" value="22" />
-    <option name="width" value="1868" />
+    <option name="width" value="1872" />
     <option name="height" value="1178" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -1447,6 +1473,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pengeplan IOS" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Transactions" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1698,23 +1742,27 @@
       <created>1393794728979</created>
       <updated>1393794728979</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="working securities table view">
+      <created>1393880521069</created>
+      <updated>1393880521069</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="22" width="1868" height="1178" extended-state="0" />
+    <frame x="48" y="22" width="1872" height="1178" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912534" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33671588" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32912534" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32841328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14614561" sideWeight="0.67087466" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5130748" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16549486" sideWeight="0.6715867" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31642067" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912534" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5130748" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19927862" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1736,96 +1784,68 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <MESSAGE value="init" />
     <MESSAGE value="addded icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="addded icons" />
+    <MESSAGE value="working securities table view" />
+    <option name="LAST_COMMIT_MESSAGE" value="working securities table view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Pengeplan IOS/AppDelegate.m</url>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Pengeplan IOS/AppDelegate.m</url>
           <line>134</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Pods/RestKit/Code/ObjectMapping/RKMapperOperation.m</url>
           <line>97</line>
           <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/HistoryViewController.m</url>
+          <line>76</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.m</url>
+          <line>102</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TransactionsViewController.m</url>
+          <line>19</line>
+          <option name="timeStamp" value="148" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="139" />
+      <option name="time" value="149" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DepositoriesViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="40" selection-start="236" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pengeplan IOS/Transaction.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="716" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginService.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="246" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginService.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="3025" selection-end="3079" vertical-scroll-proportion="0.6857542" vertical-offset="829" max-vertical-offset="1545" />
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="232" column="39" selection-start="16467" selection-end="16500" vertical-scroll-proportion="0.39278558" vertical-offset="3209" max-vertical-offset="4590">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="41" selection-start="543" selection-end="543" vertical-scroll-proportion="0.52734375" vertical-offset="0" max-vertical-offset="512">
+        <state line="37" column="0" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding>
+            <element signature="e#176#199#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HistoryViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="58" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h">
+    <entry file="file://$PROJECT_DIR$/SecuritiesViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="14" selection-start="4574" selection-end="4574" vertical-scroll-proportion="0.33266532" vertical-offset="1094" max-vertical-offset="6060" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pengeplan IOS/LoginViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="57" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pengeplan IOS/LoginViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="512">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SegmentedViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="52" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SegmentedViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="13" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="750">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
           <folding />
         </state>
       </provider>
@@ -1837,30 +1857,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SecuritiesViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="61" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="68" selection-start="3496" selection-end="3511" vertical-scroll-proportion="0.34737828" vertical-offset="559" max-vertical-offset="2145">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SecuritiesViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="80" selection-start="3444" selection-end="3444" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1275">
+        <state line="38" column="29" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pengeplan IOS/LoginViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="33" selection-start="2278" selection-end="2278" vertical-scroll-proportion="0.0" vertical-offset="588" max-vertical-offset="1365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pengeplan IOS/LoginViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="8" selection-start="7545" selection-end="7545" vertical-scroll-proportion="0.33285713" vertical-offset="2332" max-vertical-offset="7200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SegmentedViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="49" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <folding>
+            <element signature="e#124#159#0" expanded="true" />
+            <element signature="e#231#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SegmentedViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="11" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HistoryViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="0" selection-start="3580" selection-end="3580" vertical-scroll-proportion="0.0" vertical-offset="562" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationBar.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="39" selection-start="7498" selection-end="7498" vertical-scroll-proportion="-0.5214286" vertical-offset="2495" max-vertical-offset="3195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TransactionsViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="52" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2370">
+          <folding>
+            <element signature="e#124#162#0" expanded="true" />
+            <element signature="e#238#303#0" expanded="true" />
+            <marker date="1393955917000" expanded="false" signature="633:661" placeholder="(UINavigationItem *)item" />
+            <marker date="1393955917000" expanded="false" signature="671:689" placeholder="(BOOL)animated" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TransactionsViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="52" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="32" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.37709498" vertical-offset="315" max-vertical-offset="1560">
+        <state line="103" column="84" selection-start="3580" selection-end="3580" vertical-scroll-proportion="0.0" vertical-offset="997" max-vertical-offset="1710">
+          <folding>
+            <element signature="e#176#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pengeplan IOS/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3375">
           <folding />
         </state>
       </provider>

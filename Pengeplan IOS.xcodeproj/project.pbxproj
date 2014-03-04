@@ -29,6 +29,7 @@
 		78D1CD6318BE345E008C61A5 /* Pengeplan_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D1CD6218BE345E008C61A5 /* Pengeplan_IOSTests.m */; };
 		C130B0F8060057E470DA4DA1 /* OverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C130BEC0244A7DAA37C4C8AA /* OverviewViewController.m */; };
 		C130B1AC10A8255B7A9B7234 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C130BC598C5C71F857FCC818 /* LoginViewController.m */; };
+		C130B290BC1C9449AFD57CAE /* TransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C130B0D88BBB000C30727049 /* TransactionsViewController.m */; };
 		C130B44539BB8FCB432082DF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C130B8856C8B6108A4CE000D /* Security.framework */; };
 		C130B488AF55521B2424BFFC /* DepositoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C130B980DC6535C4DFA84DDC /* DepositoriesViewController.m */; };
 		C130B4E4072DF7C3F2D85FB8 /* SegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C130B3180B293A334D8448A4 /* SegmentedViewController.m */; };
@@ -76,6 +77,8 @@
 		78D1CD6018BE345E008C61A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78D1CD6218BE345E008C61A5 /* Pengeplan_IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pengeplan_IOSTests.m; sourceTree = "<group>"; };
 		BBA7DC58D1D347E7A29E44DB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		C130B0B9AB2B782DADB1F593 /* TransactionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsViewController.h; sourceTree = "<group>"; };
+		C130B0D88BBB000C30727049 /* TransactionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsViewController.m; sourceTree = "<group>"; };
 		C130B1C9DF03119C77B9F483 /* SegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedViewController.h; sourceTree = "<group>"; };
 		C130B1EF5D88B671BB0E23E5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = "Pengeplan IOS/LoginViewController.h"; sourceTree = "<group>"; };
 		C130B2A1C4F6FB14E83AD58D /* DepositoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepositoriesViewController.h; sourceTree = "<group>"; };
@@ -130,6 +133,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7841A29918C613FD00464A7E /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				C130B0D88BBB000C30727049 /* TransactionsViewController.m */,
+				C130B0B9AB2B782DADB1F593 /* TransactionsViewController.h */,
+			);
+			name = Transactions;
+			sourceTree = "<group>";
+		};
 		78A5266818BEA86100176D6D /* BL */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +167,7 @@
 		78A5267018BF426C00176D6D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7841A29918C613FD00464A7E /* Transactions */,
 				78D1CD4918BE345E008C61A5 /* Main.storyboard */,
 				C130B6A6260A90AB2F852BD7 /* CustomUIViewController.h */,
 				C130BE4AF047F00BAADE9845 /* CustomUIViewController.m */,
@@ -420,6 +433,7 @@
 				C130BD1BB3F476C65C035EBF /* SecuritiesViewController.m in Sources */,
 				C130BA35FCE826B6AC5E8EFA /* HistoryViewController.m in Sources */,
 				C130B4E4072DF7C3F2D85FB8 /* SegmentedViewController.m in Sources */,
+				C130B290BC1C9449AFD57CAE /* TransactionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

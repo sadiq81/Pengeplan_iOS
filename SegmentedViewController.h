@@ -9,12 +9,14 @@
 @interface SegmentedViewController : NSObject <UITableViewDelegate, UITableViewDataSource> {
 @protected
     NSFetchedResultsController *_fetchedResultsController;
+    UIViewController *_uiViewController;
 }
 
 @property(nonatomic, strong) NSManagedObjectContext *managedObjectContext;
+@property(nonatomic, strong) UIViewController *uiViewController;
 @property(nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
 @property(nonatomic, retain) UITableView *uiTableView;
 
-+ (SegmentedViewController *)sharedSegmentedViewController:(UITableView *)uiTableView;
+- (id)initWithTableView:(UITableView *)uiTableView viewController:(UIViewController *)uiViewController;
 
 @end

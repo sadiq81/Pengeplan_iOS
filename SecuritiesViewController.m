@@ -20,7 +20,7 @@
     NSEntityDescription *entity = entity = [NSEntityDescription entityForName:@"Transaction" inManagedObjectContext:self.managedObjectContext];
     [fetchRequest setEntity:entity];
 
-    NSExpression *keyPathExpression = [NSExpression expressionForKeyPath:@"localAmount"];
+    NSExpression *keyPathExpression = [NSExpression expressionForKeyPath:@"amount"];
     NSExpression *sumOfCountExpression = [NSExpression expressionForFunction:@"sum:" arguments:[NSArray arrayWithObject:keyPathExpression]];
 
     NSExpressionDescription *expressionDescription = [[NSExpressionDescription alloc] init];
@@ -43,14 +43,6 @@
     self.fetchedResultsController = theFetchedResultsController;
     self.fetchedResultsController.delegate = self;
     return self.fetchedResultsController;
-}
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [[self.fetchedResultsController fetchedObjects] count];
 }
 
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {

@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SecuritiesViewController.h"
+#import "DepositoriesViewController.h"
+#import "HistoryViewController.h"
 
 @interface OverviewViewController : UIViewController
 
@@ -17,6 +20,14 @@
 @property (weak, nonatomic) IBOutlet UIView *history;
 
 @property (weak, nonatomic) IBOutlet UITableView *securitiesTableView;
+@property (weak, nonatomic) IBOutlet UITableView *depositoriesTableView;
+@property (weak, nonatomic) IBOutlet UITableView *historyTableView;
+
+@property (strong, nonatomic) SecuritiesViewController *securitiesViewController;
+@property (strong, nonatomic) DepositoriesViewController *depositoriesViewController;
+@property (strong, nonatomic) HistoryViewController *historyViewController;
+
+- (void) configureSegmentedControlViews;
 
 - (IBAction)segmentedControl:(id)sender;
 

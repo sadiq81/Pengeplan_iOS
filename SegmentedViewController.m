@@ -11,35 +11,38 @@
 }
 
 @synthesize fetchedResultsController = _fetchedResultsController;
+@synthesize uiViewController = _uiViewController;
 @synthesize uiTableView = _uiTableView;
 
 
-static SegmentedViewController *sharedSegmentedViewController = nil;    // static instance variable
+- (id)initWithTableView:(UITableView *)uiTableView viewController:(UIViewController *)uiViewController {
+    self = [super init];
+    if (self) {
+        self.managedObjectContext = [(AppDelegate *) [[UIApplication sharedApplication] delegate] managedObjectContext];
 
-- (id)init {
-    if ((self = [super init])) {
-    }
-    return self;
-}
+        self.uiViewController = uiViewController;
 
-+ (SegmentedViewController *)sharedSegmentedViewController:(UITableView *)uiTableView {
-    if (sharedSegmentedViewController == nil) {
-        sharedSegmentedViewController = [[super allocWithZone:NULL] init];
-        sharedSegmentedViewController.managedObjectContext = [(AppDelegate *) [[UIApplication sharedApplication] delegate] managedObjectContext];
-        sharedSegmentedViewController.uiTableView = uiTableView;
+        self.uiTableView = uiTableView;
+        self.uiTableView.delegate = self;
+        self.uiTableView.dataSource = self;
+        self.uiTableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
 
         NSError *error;
-        if (![sharedSegmentedViewController.fetchedResultsController performFetch:&error]) {
+        if (![self.fetchedResultsController performFetch:&error]) {
             // Update to handle the error appropriately.
             NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
             exit(-1);  // Fail
         }
     }
-    return sharedSegmentedViewController;
+    return self;
 }
 
-- (id)copyWithZone:(NSZone *)zone {
-    return self;
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [[self.fetchedResultsController fetchedObjects] count];
 }
 
 @end

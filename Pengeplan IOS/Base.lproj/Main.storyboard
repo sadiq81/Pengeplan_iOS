@@ -76,6 +76,13 @@
                                     <action selector="login:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ImA-37-EDW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DHm-31-Yvd">
+                                <rect key="frame" x="145" y="427" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Test">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </view>
@@ -131,11 +138,25 @@
                             <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fiA-8m-XfD">
                                 <rect key="frame" x="0.0" y="568" width="320" height="498"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="hDp-7h-58m">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="498"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </tableView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="osd-0W-nBG">
                                 <rect key="frame" x="320" y="70" width="320" height="498"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="vUO-BN-sLd">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="498"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </tableView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
@@ -143,15 +164,46 @@
                     </view>
                     <connections>
                         <outlet property="depositories" destination="fiA-8m-XfD" id="SIs-ph-aNa"/>
+                        <outlet property="depositoriesTableView" destination="hDp-7h-58m" id="oeG-Iy-QPN"/>
                         <outlet property="history" destination="osd-0W-nBG" id="cSP-ne-AOl"/>
+                        <outlet property="historyTableView" destination="vUO-BN-sLd" id="Dj3-f5-kVe"/>
                         <outlet property="securities" destination="zF4-Tv-O4N" id="Hfv-vD-YjS"/>
                         <outlet property="securitiesTableView" destination="oDw-oy-rB4" id="NkC-AF-wMx"/>
                         <outlet property="segmentedControl" destination="r2a-nd-8pd" id="U4X-gk-7oV"/>
+                        <segue destination="Tl9-m0-g8E" kind="modal" identifier="historySeque" id="IMj-Z0-8cq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pBR-TX-JNM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="583" y="262"/>
+        </scene>
+        <!--Transactions View Controller-->
+        <scene sceneID="4yN-67-736">
+            <objects>
+                <viewController storyboardIdentifier="Transactions" id="Tl9-m0-g8E" customClass="TransactionsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cKh-LF-FiJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="FEx-Gt-tVT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Glu-cD-zK8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="G2f-Tl-n56">
+                                <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="transactionsTableView" destination="G2f-Tl-n56" id="s1I-aW-i4M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VMn-7a-KyD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1025" y="262"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
