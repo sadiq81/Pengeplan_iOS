@@ -60,12 +60,15 @@ NSString *pin;
 }
 
 - (IBAction)login:(id)sender {
+    [self.activityIndicator startAnimating];
     [[LoginService sharedLoginService] login:self.username.text password:self.password.text save:self.remember.isOn pin:self.pin.text];
 }
 
 //TODO enter in pin or password should trigger login attempt
 
 - (void)handleAuthResponse:(NSNotification *)notification {
+
+    [self.activityIndicator stopAnimating];
 
     AuthResponse *authResponse = [[notification userInfo] valueForKey:@"authResponse"];
     if ([authResponse isAuthenticated]) {

@@ -5,6 +5,7 @@
 
 #import "SegmentedViewController.h"
 #import "AppDelegate.h"
+#import "PengeplanService.h"
 
 @implementation SegmentedViewController {
 
@@ -13,6 +14,7 @@
 @synthesize fetchedResultsController = _fetchedResultsController;
 @synthesize uiViewController = _uiViewController;
 @synthesize uiTableView = _uiTableView;
+@synthesize uiRefreshControl = _uiRefreshControl;
 
 
 - (id)initWithTableView:(UITableView *)uiTableView viewController:(UIViewController *)uiViewController {
@@ -33,8 +35,30 @@
             NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
             exit(-1);  // Fail
         }
+
+        self.uiRefreshControl = [[UIRefreshControl alloc] init];
+        [self.uiRefreshControl addTarget:self action:@selector(refreshView:) forControlEvents:UIControlEventValueChanged];
+
+        UITableViewController *tableViewController = [[UITableViewController alloc] init];
+        tableViewController.tableView = self.uiTableView;
+        tableViewController.refreshControl = self.uiRefreshControl;
+
+
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(transactionsUpdated) name:@"transactionsUpdated" object:nil];
+
     }
     return self;
+}
+
+- (void)refreshView:(UIRefreshControl *)refresh {
+    //TODO handle error in getting data
+    [[PengeplanService sharedPengeplanService] updateTransactions];
+}
+
+- (void)transactionsUpdated {
+    [self.fetchedResultsController performFetch:nil];
+    [self.uiTableView reloadData];
+    [self.uiRefreshControl endRefreshing];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -44,5 +68,6 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [[self.fetchedResultsController fetchedObjects] count];
 }
+
 
 @end

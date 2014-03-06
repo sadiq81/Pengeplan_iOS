@@ -12,5 +12,10 @@
 @property(nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
 ;
 @property (weak, nonatomic) IBOutlet UITableView *transactionsTableView;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
+@property (strong, nonatomic) NSString *selectedPaperName;
+@property (strong, nonatomic) NSDateFormatter *df;
+
 
 @end

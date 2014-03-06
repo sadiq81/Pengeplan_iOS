@@ -5,8 +5,14 @@
 
 #import <Foundation/Foundation.h>
 #import "SegmentedViewController.h"
+#import "CPTPlot.h"
 
 
-@interface SecuritiesViewController : SegmentedViewController
+@interface SecuritiesViewController : SegmentedViewController <CPTPlotDataSource, CPTPlotDelegate> {
+
+
+
+}
+
 
 @end

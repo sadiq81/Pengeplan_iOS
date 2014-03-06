@@ -10,13 +10,19 @@
 @protected
     NSFetchedResultsController *_fetchedResultsController;
     UIViewController *_uiViewController;
+    UIRefreshControl *_uiRefreshControl;
 }
 
 @property(nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 @property(nonatomic, strong) UIViewController *uiViewController;
 @property(nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
 @property(nonatomic, retain) UITableView *uiTableView;
+@property(nonatomic, retain) UIRefreshControl *uiRefreshControl;
 
 - (id)initWithTableView:(UITableView *)uiTableView viewController:(UIViewController *)uiViewController;
+
+- (void)refreshView:(UIRefreshControl *)refresh;
+
+- (void)transactionsUpdated;
 
 @end

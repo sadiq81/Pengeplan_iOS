@@ -10,4 +10,5 @@
 @interface HistoryViewController : SegmentedViewController
 
 @property (strong, nonatomic) NSString *selectedPaperName;
+
 @end

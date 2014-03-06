@@ -19,6 +19,7 @@
 @property(weak, nonatomic) IBOutlet UITextField *pin;
 @property(weak, nonatomic) IBOutlet UISwitch *remember;
 @property(weak, nonatomic) IBOutlet UILabel *pinLabel;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
 - (IBAction)remember:(id)sender;
 

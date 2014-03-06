@@ -10,6 +10,8 @@
 
 }
 
+
+
 - (NSFetchedResultsController *)fetchedResultsController {
 
     if (_fetchedResultsController != nil) {
@@ -49,7 +51,7 @@
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
 
     NSObject *info = [self.fetchedResultsController objectAtIndexPath:indexPath];
-    NSString *paperName = [[info valueForKey:@"paperName"] substringToIndex:[[info valueForKey:@"paperName"] length] > 10 ? 10 : [[info valueForKey:@"paperName"] length]];
+    NSString *paperName = [info valueForKey:@"paperName" ];
     NSString *sumOfAmount = [info valueForKey:@"sumOfAmount"];
     NSString *currency = [info valueForKey:@"currency"];
     NSString *combined = [NSString stringWithFormat:@"%@%@%@", sumOfAmount, @" ", currency];
@@ -71,7 +73,7 @@
     return cell;
 }
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
     self.selectedPaperName = [tableView cellForRowAtIndexPath:indexPath].textLabel.text;
     [self.uiViewController performSegueWithIdentifier:@"historySeque" sender:self.uiViewController];

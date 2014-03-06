@@ -27,6 +27,7 @@
 		78D1CD5918BE345E008C61A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1CD3B18BE345E008C61A5 /* UIKit.framework */; };
 		78D1CD6118BE345E008C61A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78D1CD5F18BE345E008C61A5 /* InfoPlist.strings */; };
 		78D1CD6318BE345E008C61A5 /* Pengeplan_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D1CD6218BE345E008C61A5 /* Pengeplan_IOSTests.m */; };
+		78D5143818C72C8F000C67C5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5143718C72C8F000C67C5 /* QuartzCore.framework */; };
 		C130B0F8060057E470DA4DA1 /* OverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C130BEC0244A7DAA37C4C8AA /* OverviewViewController.m */; };
 		C130B1AC10A8255B7A9B7234 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C130BC598C5C71F857FCC818 /* LoginViewController.m */; };
 		C130B290BC1C9449AFD57CAE /* TransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C130B0D88BBB000C30727049 /* TransactionsViewController.m */; };
@@ -76,6 +77,7 @@
 		78D1CD5E18BE345E008C61A5 /* Pengeplan IOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pengeplan IOSTests-Info.plist"; sourceTree = "<group>"; };
 		78D1CD6018BE345E008C61A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78D1CD6218BE345E008C61A5 /* Pengeplan_IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pengeplan_IOSTests.m; sourceTree = "<group>"; };
+		78D5143718C72C8F000C67C5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BBA7DC58D1D347E7A29E44DB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		C130B0B9AB2B782DADB1F593 /* TransactionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsViewController.h; sourceTree = "<group>"; };
 		C130B0D88BBB000C30727049 /* TransactionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsViewController.m; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78D5143818C72C8F000C67C5 /* QuartzCore.framework in Frameworks */,
 				782D8AA918BF6BE900E01EF6 /* CFNetwork.framework in Frameworks */,
 				782D8AAA18BF6BE900E01EF6 /* CoreData.framework in Frameworks */,
 				782D8AAB18BF6BE900E01EF6 /* MobileCoreServices.framework in Frameworks */,
@@ -203,6 +206,7 @@
 		78D1CD3618BE345D008C61A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78D5143718C72C8F000C67C5 /* QuartzCore.framework */,
 				782D8AA518BF6BE900E01EF6 /* CFNetwork.framework */,
 				782D8AA618BF6BE900E01EF6 /* CoreData.framework */,
 				782D8AA718BF6BE900E01EF6 /* MobileCoreServices.framework */,

@@ -5,6 +5,7 @@
 
 #import "TransactionsViewController.h"
 #import "AppDelegate.h"
+#import "Transaction.h"
 
 
 @implementation TransactionsViewController {
@@ -21,6 +22,12 @@
     self.transactionsTableView.delegate = self;
     self.transactionsTableView.dataSource = self;
     self.transactionsTableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+
+    self.df = [[NSDateFormatter alloc] init];
+    [self.df setDateFormat:@"dd-MM-yy"];
+
+    self.titleLabel.text = self.selectedPaperName;
+
 
     NSError *error;
     if (![[self fetchedResultsController] performFetch:&error]) {
@@ -44,6 +51,7 @@
 
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
     NSEntityDescription *entity = entity = [NSEntityDescription entityForName:@"Transaction" inManagedObjectContext:self.managedObjectContext];
+    [fetchRequest setPredicate:[NSPredicate predicateWithFormat:@"paperName == %@", self.selectedPaperName]];
     [fetchRequest setEntity:entity];
 
     [fetchRequest setPropertiesToFetch:@[@"date", @"transactionType", @"amount", @"currency"]];
@@ -51,11 +59,12 @@
     NSSortDescriptor *sortByName = [[NSSortDescriptor alloc] initWithKey:@"date" ascending:YES];
     [fetchRequest setSortDescriptors:[NSArray arrayWithObject:sortByName]];
     [fetchRequest setFetchBatchSize:20];
+//    NSArray *array = [_managedObjectContext executeFetchRequest:fetchRequest error:nil];
 
     NSFetchedResultsController *theFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest
                                                                                                   managedObjectContext:self.managedObjectContext
                                                                                                     sectionNameKeyPath:nil
-                                                                                                             cacheName:@"Transactions"];
+                                                                                                             cacheName:nil];
 
     self.fetchedResultsController = theFetchedResultsController;
     self.fetchedResultsController.delegate = self;
@@ -71,15 +80,16 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    id sectionInfo = [[_fetchedResultsController sections] objectAtIndex:section];
+    id sectionInfo = [[self.fetchedResultsController sections] objectAtIndex:section];
     return [sectionInfo numberOfObjects];
 }
 
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
 
-    NSObject *info = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    Transaction *info = [self.fetchedResultsController objectAtIndexPath:indexPath];
 
-    cell.textLabel.text = @"Test";
+    cell.textLabel.text = [self.df stringFromDate:info.date];
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@%@%@%@%@%@%@", info.transactionType, @" ", info.numberOfItems, @" for ", info.amount, @" ", info.currency];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -87,7 +97,8 @@
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     // Set up the cell...
     [self configureCell:cell atIndexPath:indexPath];
@@ -148,6 +159,5 @@
     // The fetch controller has sent all current change notifications, so tell the table view to process all updates.
     [self.transactionsTableView endUpdates];
 }
-
 
 @end
