@@ -14,7 +14,7 @@
 @implementation PengeplanService {
 }
 
-NSString *url = @"http://0.0.0.0:8080/api/user/";
+NSString *url = @"http://172.24.141.29:8080/api/user/";
 static PengeplanService *sharedPengeplanService = nil;    // static instance variable
 
 - (id)init {

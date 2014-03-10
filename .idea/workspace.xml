@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a6d4419-50fa-478c-9e03-c9e38faeaf87" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS.xcworkspace/xcuserdata/tommysadiqhinrichsen.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/Pengeplan IOS.xcworkspace/xcuserdata/tommysadiqhinrichsen.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DepositoriesViewController.m" afterPath="$PROJECT_DIR$/DepositoriesViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HistoryViewController.h" afterPath="$PROJECT_DIR$/HistoryViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HistoryViewController.m" afterPath="$PROJECT_DIR$/HistoryViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS/LoginViewController.h" afterPath="$PROJECT_DIR$/Pengeplan IOS/LoginViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS/LoginViewController.m" afterPath="$PROJECT_DIR$/Pengeplan IOS/LoginViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/Pengeplan IOS/Base.lproj/Main.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.h" afterPath="$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.m" afterPath="$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SecuritiesViewController.h" afterPath="$PROJECT_DIR$/SecuritiesViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SecuritiesViewController.m" afterPath="$PROJECT_DIR$/SecuritiesViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SegmentedViewController.h" afterPath="$PROJECT_DIR$/SegmentedViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SegmentedViewController.m" afterPath="$PROJECT_DIR$/SegmentedViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TransactionsViewController.h" afterPath="$PROJECT_DIR$/TransactionsViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TransactionsViewController.m" afterPath="$PROJECT_DIR$/TransactionsViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pengeplan IOS.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pengeplan IOS/AppDelegate.m" afterPath="$PROJECT_DIR$/Pengeplan IOS/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PengeplanService.m" afterPath="$PROJECT_DIR$/PengeplanService.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Pengeplan IOS.iws" />
@@ -1257,6 +1241,402 @@
     <ignored path="Build/Products/Debug-iphonesimulator/Pengeplan IOS.app/AppIcon40x40@2x.png" />
     <ignored path="Build/Products/Debug-iphonesimulator/Pengeplan IOS.app/LaunchImage-700@2x.png" />
     <ignored path="Build/Products/Debug-iphonesimulator/Pengeplan IOS.app/AppIcon60x60@2x.png" />
+    <ignored path="Pods/Headers/CorePlot/NSNumberExtensions.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTMutableNumericData+TypeConversion.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTFillColor.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTAxisTitle.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTPathExtensions.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTAnimationPlotRangePeriod.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTFillImage.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTShadow.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTXYAxis.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTNumericDataType.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTNumericData.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTPlatformSpecificFunctions.h" />
+    <ignored path="Pods/CorePlot/License.txt" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTAnimationTimingFunctions.h" />
+    <ignored path="Pods/Headers/CorePlot/NSCoderExtensions.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTXYGraph.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTFillColor.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTBorderLayer.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTMutableNumericData+TypeConversion.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTLayerAnnotation.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTPlainWhiteTheme.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAnnotation.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTGridLineGroup.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTAnimationCGSizePeriod.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPathExtensions.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTXYTheme.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAnimationPeriod.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlotGroup.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTAnimationCGFloatPeriod.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTTextStyle.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTCalendarFormatter.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTGraph.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTGradient.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTNumericData+TypeConversion.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPieChart.h" />
+    <ignored path="Pods/CorePlot/framework/Source/NSDecimalNumberExtensions.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTNumericData+TypeConversion.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTTimeFormatter.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlotSpaceAnnotation.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTCalendarFormatter.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlotAreaFrame.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTAnimationCGRectPeriod.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTBorderedLayer.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTAnimationCGFloatPeriod.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTConstraints.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTMutablePlotRange.m" />
+    <ignored path="Pods/CorePlot/framework/iPhoneOnly/CPTGraphHostingView.m" />
+    <ignored path="Pods/CorePlot/framework/Source/NSNumberExtensions.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTScatterPlot.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTXYGraph.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTAnimationNSDecimalPeriod.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTXYAxis.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTTradingRangePlot.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTAnimationTimingFunctions.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTMutableLineStyle.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTLegendEntry.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTLimitBand.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTDarkGradientTheme.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPathExtensions.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTAnimationCGPointPeriod.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlot.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTDefinitions.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTGradient.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAnimationOperation.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTAnimationCGPointPeriod.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTBarPlot.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTAnnotationHostLayer.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTPlatformSpecificDefines.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTPlatformSpecificCategories.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTTheme.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTTimeFormatter.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTTextStylePlatformSpecific.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTSlateTheme.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTLegend.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTGridLines.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTConstraints.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTAnimationNSDecimalPeriod.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTResponder.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTBorderLayer.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTTextStyle.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTPlainWhiteTheme.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTAnimationTimingFunctions.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTMutableNumericData.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTPlotGroup.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTLineStyle.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTConstraintsFixed.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTMutableShadow.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTPieChart.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTAxisLabel.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTFunctionDataSource.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTAnnotation.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTGraphHostingView.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTLayer.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTXYAxisSet.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTStocksTheme.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTAxis.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTAnimationCGSizePeriod.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTXYPlotSpace.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTDarkGradientTheme.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTTextLayer.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTAnimationCGRectPeriod.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTBorderedLayer.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTMaskLayer.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTXYTheme.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTAnimationCGFloatPeriod.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTGradient.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTPlotArea.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTMutableLineStyle.h" />
+    <ignored path="Pods/Headers/CorePlot/CorePlotProbes.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTLayerAnnotation.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTPlotSymbol.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTAxisSet.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTFillGradient.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTPlotSpaceAnnotation.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTAnimationPeriod.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTGridLineGroup.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTFill.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTScatterPlot.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTDerivedXYGraph.h" />
+    <ignored path="Pods/Headers/CorePlot/NSDecimalNumberExtensions.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTLineCap.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTUtilities.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTRangePlot.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTAnimationOperation.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTMutableTextStyle.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTAnimation.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTExceptions.h" />
+    <ignored path="Pods/Headers/CorePlot/CorePlot-CocoaTouch.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlotArea.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTUtilities.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTSlateTheme.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTDarkGradientTheme.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTTheme.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTLineStyle.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTSlateTheme.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTTextLayer.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTLineStyle.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAnimationOperation.m" />
+    <ignored path="Pods/CorePlot/framework/Source/NSDecimalNumberExtensions.h" />
+    <ignored path="Pods/CorePlot/framework/Source/NSCoderExtensions.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTMutableTextStyle.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlotRange.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTFillGradient.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTShadow.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTFill.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTDerivedXYGraph.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTDerivedXYGraph.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTLimitBand.h" />
+    <ignored path="Pods/CorePlot/framework/Source/NSNumberExtensions.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTPlainBlackTheme.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlotAreaFrame.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTMutablePlotRange.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTGridLineGroup.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTMutableShadow.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTGraph.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTXYAxisSet.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTConstraints.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAxisLabelGroup.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTLayer.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTXYTheme.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTMutableNumericData+TypeConversion.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTBarPlot.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTFill.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTMutableLineStyle.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTNumericDataType.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTGridLines.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTUtilities.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTBorderLayer.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTResponder.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTRangePlot.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAnimationPeriod.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTAnimationCGRectPeriod.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTExceptions.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTImage.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTXYPlotSpace.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTConstraintsRelative.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTShadow.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTFunctionDataSource.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAxisLabel.m" />
+    <ignored path="Pods/CorePlot/framework/iPhoneOnly/CPTTextStylePlatformSpecific.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTLegend.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAnnotationHostLayer.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTAnimationPlotRangePeriod.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTDefinitions.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTMutableNumericData.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTTradingRangePlot.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTMutableShadow.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTRangePlot.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTImage.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAxis.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTXYAxisSet.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTConstraintsFixed.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPieChart.m" />
+    <ignored path="Pods/CorePlot/framework/CorePlot-CocoaTouch.h" />
+    <ignored path="Pods/CorePlot/framework/Source/mainpage.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTLegendEntry.h" />
+    <ignored path="Pods/CorePlot/framework/iPhoneOnly/CPTTextStylePlatformSpecific.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTColor.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTTextStyle.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlotGroup.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CorePlotProbes.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAxisTitle.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlotSpaceAnnotation.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTFillImage.h" />
+    <ignored path="Pods/CorePlot/framework/iPhoneOnly/CPTPlatformSpecificDefines.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTStocksTheme.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlotSymbol.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTLayer.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAnimation.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTColorSpace.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAxisLabelGroup.m" />
+    <ignored path="Pods/CorePlot/framework/Source/NSCoderExtensions.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTColorSpace.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAnnotationHostLayer.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAxis.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTMaskLayer.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlotArea.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTTheme.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTExceptions.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAnimation.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTPlainBlackTheme.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTBorderedLayer.h" />
+    <ignored path="Pods/CorePlot/framework/iPhoneOnly/CPTPlatformSpecificCategories.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlotSpace.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTFillImage.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTMutableNumericData.h" />
+    <ignored path="Pods/CorePlot/framework/iPhoneOnly/CPTPlatformSpecificFunctions.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTXYGraph.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTConstraintsFixed.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTTextLayer.h" />
+    <ignored path="Pods/CorePlot/framework/iPhoneOnly/CPTPlatformSpecificFunctions.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTStocksTheme.m" />
+    <ignored path="Pods/CorePlot/framework/iPhoneOnly/CPTPlatformSpecificCategories.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTScatterPlot.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAxisLabel.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTLineCap.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTAnimationCGSizePeriod.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlot.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTFillColor.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTBarPlot.h" />
+    <ignored path="Pods/CorePlot/framework/iPhoneOnly/CPTPlatformSpecificDefines.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTFillGradient.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTGridLines.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTFunctionDataSource.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTColor.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTNumericDataType.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTXYAxis.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTTimeFormatter.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlotSymbol.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTConstraintsRelative.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTLineCap.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTNumericData.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTLayerAnnotation.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTAnimationPlotRangePeriod.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTLegend.h" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTPlainWhiteTheme.m" />
+    <ignored path="Pods/Pods-XYPieChart.xcconfig" />
+    <ignored path="Pods/Pods-XYPieChart-Private.xcconfig" />
+    <ignored path="Pods/Pods-XYPieChart-dummy.m" />
+    <ignored path="Pods/Pods-XYPieChart-prefix.pch" />
+    <ignored path="Pods/Pods.xcodeproj/xcuserdata/tommysadiqhinrichsen.xcuserdatad/xcschemes/Pods-CorePlot.xcscheme" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTAnimationNSDecimalPeriod.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAxisSet.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlotSpace.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTMutableTextStyle.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTAnimationCGPointPeriod.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTPlotRange.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTXYPlotSpace.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTNumericData.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAxisTitle.m" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAnnotation.m" />
+    <ignored path="Pods/CorePlot/framework/Source/_CPTMaskLayer.h" />
+    <ignored path="Pods/CorePlot/framework/iPhoneOnly/CPTGraphHostingView.h" />
+    <ignored path="Pods/CorePlot/framework/Source/CPTAxisSet.m" />
+    <ignored path="Pods/Pods-CorePlot.xcconfig" />
+    <ignored path="Pods/Pods-CorePlot-prefix.pch" />
+    <ignored path="Pods/Pods-CorePlot-dummy.m" />
+    <ignored path="Pods/Pods-CorePlot-Private.xcconfig" />
+    <ignored path="Build/Products/Debug-iphonesimulator/Pengeplan IOS.app/Base.lproj/Main.storyboardc/Transactions.nib" />
+    <ignored path="Build/Products/Debug-iphonesimulator/Pengeplan IOS.app/Base.lproj/Main.storyboardc/Tl9-m0-g8E-view-Glu-cD-zK8.nib" />
+    <ignored path="Pods/Headers/CorePlot/CPTPlot.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTDefinitions.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTGraph.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTImage.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTLegendEntry.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTPlotAreaFrame.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTTradingRangePlot.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTColor.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTPlotRange.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTConstraintsRelative.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTPlotSpace.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTMutablePlotRange.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTLimitBand.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTNumericData+TypeConversion.h" />
+    <ignored path="Pods/Headers/CorePlot/mainpage.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTAxisLabelGroup.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTCalendarFormatter.h" />
+    <ignored path="Pods/Headers/CorePlot/_CPTPlainBlackTheme.h" />
+    <ignored path="Pods/Headers/CorePlot/CPTColorSpace.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTXYGraph.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/NSCoderExtensions.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTNumericDataType.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTXYAxis.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTPlatformSpecificFunctions.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTNumericData.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTAnimationPlotRangePeriod.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTPathExtensions.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTShadow.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTFillImage.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTMutableNumericData+TypeConversion.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/NSNumberExtensions.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTAxisTitle.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTLineCap.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTAnimationOperation.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTRangePlot.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTFillColor.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTMutableTextStyle.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CorePlot-CocoaTouch.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTExceptions.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTUtilities.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTFillGradient.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTGridLineGroup.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTAnimationPeriod.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTAnimation.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTFill.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/NSDecimalNumberExtensions.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTDerivedXYGraph.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTPlotSpaceAnnotation.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTPlotArea.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTGradient.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTScatterPlot.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTMutableLineStyle.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTPlotSymbol.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTLayerAnnotation.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTAnimationCGFloatPeriod.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTAxisSet.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTDarkGradientTheme.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTXYPlotSpace.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CorePlotProbes.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTTextLayer.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTMaskLayer.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTBorderedLayer.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTAnimationCGSizePeriod.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTXYTheme.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTLayer.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTGraphHostingView.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTStocksTheme.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTXYAxisSet.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTAxisLabel.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTAnimationCGRectPeriod.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTAnnotation.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTFunctionDataSource.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTLineStyle.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTPlotGroup.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTMutableShadow.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTConstraintsFixed.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTPlainWhiteTheme.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTAxis.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTMutableNumericData.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTAnimationTimingFunctions.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTGridLines.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTResponder.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTAnimationNSDecimalPeriod.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTTextStyle.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTPieChart.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTLegend.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTSlateTheme.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTConstraints.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTAnnotationHostLayer.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTTheme.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTPlatformSpecificCategories.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTTextStylePlatformSpecific.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTBorderLayer.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTBarPlot.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTAnimationCGPointPeriod.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTPlatformSpecificDefines.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTColor.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTLegendEntry.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTPlotAreaFrame.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTGraph.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTImage.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTPlot.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTDefinitions.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTTimeFormatter.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTAxisLabelGroup.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTLimitBand.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTNumericData+TypeConversion.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTPlotSpace.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTMutablePlotRange.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTPlotRange.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTConstraintsRelative.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTTradingRangePlot.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/_CPTPlainBlackTheme.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTColorSpace.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/mainpage.h" />
+    <ignored path="Pods/BuildHeaders/CorePlot/CPTCalendarFormatter.h" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1270,16 +1650,61 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_iPhone_Retina__4_inch__7.0" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_7bd5c31d99e846739e77e2aaed09ba20d2c12cb7" />
   <component name="FavoritesManager">
     <favorites_list name="Pengeplan IOS" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TransactionsViewController.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TransactionsViewController.m">
+      <file leaf-file-name="OverviewViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="40" selection-start="3234" selection-end="3234" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="2475">
+            <state line="34" column="0" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="750">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecuritiesViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SecuritiesViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="112" column="64" selection-start="4880" selection-end="4880" vertical-scroll-proportion="0.0" vertical-offset="1680" max-vertical-offset="2865">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PengeplanService.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PengeplanService.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pengeplan IOS/main.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PengeplanService.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PengeplanService.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="330" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1410">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Pengeplan IOS/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="207" column="5" selection-start="10666" selection-end="10666" vertical-scroll-proportion="1.0493469" vertical-offset="2382" max-vertical-offset="3450">
               <folding />
             </state>
           </provider>
@@ -1294,39 +1719,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PengeplanService.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PengeplanService.m">
+      <file leaf-file-name="TransactionsViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TransactionsViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1320">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pengeplan IOS/main.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecuritiesViewController.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SecuritiesViewController.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="17" selection-start="4995" selection-end="4995" vertical-scroll-proportion="0.29386592" vertical-offset="904" max-vertical-offset="2235">
-              <folding>
-                <element signature="n#fetchedResultsController#0;n#SecuritiesViewController#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OverviewViewController.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="52" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+            <state line="84" column="1" selection-start="3234" selection-end="3234" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="2520">
               <folding />
             </state>
           </provider>
@@ -1350,8 +1746,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Pengeplan IOS/Transaction.h" />
-        <option value="$PROJECT_DIR$/DepositoriesViewController.h" />
         <option value="$PROJECT_DIR$/HistoryViewController.h" />
         <option value="$PROJECT_DIR$/TransactionsViewController.h" />
         <option value="$PROJECT_DIR$/HistoryViewController.m" />
@@ -1366,6 +1760,8 @@
         <option value="$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.m" />
         <option value="$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.h" />
         <option value="$PROJECT_DIR$/SecuritiesViewController.m" />
+        <option value="$PROJECT_DIR$/PengeplanService.m" />
+        <option value="$PROJECT_DIR$/Pengeplan IOS/AppDelegate.m" />
       </list>
     </option>
   </component>
@@ -1526,6 +1922,48 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pengeplan IOS" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pengeplan IOS" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pengeplan IOS" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAL" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pengeplan IOS" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BL" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -1534,14 +1972,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="269" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="271" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="271" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="271" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/RestKit for iOS/MongoHq.xcworkspace" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="281" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1070" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1069" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1070" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="276" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="273" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
@@ -1663,20 +2101,23 @@
       <created>1393880521069</created>
       <updated>1393880521069</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finished version">
+      <created>1394102453374</created>
+      <updated>1394102453374</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1178" width="1920" height="1178" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33487085" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32749078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32780847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16499737" sideWeight="0.67250925" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16499737" sideWeight="0.6721915" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35516605" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5130748" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1686,6 +2127,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912534" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33425415" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1702,7 +2144,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="addded icons" />
     <MESSAGE value="working securities table view" />
-    <option name="LAST_COMMIT_MESSAGE" value="working securities table view" />
+    <MESSAGE value="finished version" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1729,91 +2172,46 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pods/Headers/CorePlot/CPTGraph.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="11" selection-start="955" selection-end="955" vertical-scroll-proportion="0.9150522" vertical-offset="1" max-vertical-offset="2265">
-          <folding>
-            <element signature="e#18#46#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIActivityIndicatorView.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="66" selection-start="1015" selection-end="1031" vertical-scroll-proportion="0.62593144" vertical-offset="0" max-vertical-offset="671">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pengeplan IOS/LoginViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="35" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.0" vertical-offset="564" max-vertical-offset="1410">
-          <folding />
-        </state>
+        <state line="62" column="35" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.0" vertical-offset="564" max-vertical-offset="1410" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SegmentedViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="2253" selection-end="2412" vertical-scroll-proportion="0.0" vertical-offset="499" max-vertical-offset="1170">
-          <folding>
-            <element signature="e#124#159#0" expanded="true" />
-            <element signature="e#260#325#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="67" column="0" selection-start="2253" selection-end="2412" vertical-scroll-proportion="0.0" vertical-offset="499" max-vertical-offset="1170" />
       </provider>
     </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UICollectionView.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="42" selection-start="9585" selection-end="9585" vertical-scroll-proportion="0.7948328" vertical-offset="1967" max-vertical-offset="2625">
-          <folding />
-        </state>
+        <state line="168" column="42" selection-start="9585" selection-end="9585" vertical-scroll-proportion="0.7948328" vertical-offset="1967" max-vertical-offset="2625" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="6" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2355">
-          <folding />
-        </state>
+        <state line="29" column="6" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2355" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pengeplan IOS/OverviewViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="52" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+        <state line="34" column="0" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="750">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="23" selection-start="9452" selection-end="9452" vertical-scroll-proportion="0.0" vertical-offset="2601" max-vertical-offset="8370">
-          <folding />
-        </state>
+        <state line="194" column="23" selection-start="9452" selection-end="9452" vertical-scroll-proportion="0.0" vertical-offset="2601" max-vertical-offset="8370" />
       </provider>
     </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="22" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="422" max-vertical-offset="4785">
-          <folding />
-        </state>
+        <state line="44" column="22" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="422" max-vertical-offset="4785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SegmentedViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="671">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransactionsViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="40" selection-start="3234" selection-end="3234" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="2475">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PengeplanService.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1320">
           <folding />
         </state>
       </provider>
@@ -1827,24 +2225,46 @@
     </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="69" selection-start="3410" selection-end="3433" vertical-scroll-proportion="0.33282673" vertical-offset="756" max-vertical-offset="4590">
-          <folding />
-        </state>
+        <state line="70" column="69" selection-start="3410" selection-end="3433" vertical-scroll-proportion="0.33282673" vertical-offset="756" max-vertical-offset="4590" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pods/Headers/CorePlot/CPTGraphHostingView.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+        <state line="4" column="11" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TransactionsViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="1" selection-start="3234" selection-end="3234" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="2520">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SecuritiesViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="17" selection-start="4995" selection-end="4995" vertical-scroll-proportion="0.29386592" vertical-offset="904" max-vertical-offset="2235">
-          <folding>
-            <element signature="n#fetchedResultsController#0;n#SecuritiesViewController#0" expanded="false" />
-          </folding>
+        <state line="112" column="64" selection-start="4880" selection-end="4880" vertical-scroll-proportion="0.0" vertical-offset="1680" max-vertical-offset="2865">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PengeplanService.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PengeplanService.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="330" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pengeplan IOS/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="207" column="5" selection-start="10666" selection-end="10666" vertical-scroll-proportion="1.0493469" vertical-offset="2382" max-vertical-offset="3450">
+          <folding />
         </state>
       </provider>
     </entry>
