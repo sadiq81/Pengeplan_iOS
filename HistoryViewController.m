@@ -11,7 +11,6 @@
 }
 
 
-
 - (NSFetchedResultsController *)fetchedResultsController {
 
     if (_fetchedResultsController != nil) {
@@ -22,16 +21,16 @@
     NSEntityDescription *entity = entity = [NSEntityDescription entityForName:@"Transaction" inManagedObjectContext:self.managedObjectContext];
     [fetchRequest setEntity:entity];
 
-    NSExpression *keyPathExpression = [NSExpression expressionForKeyPath:@"amount"];
+    NSExpression *keyPathExpression = [NSExpression expressionForKeyPath:@"numberOfItems"];
     NSExpression *sumOfCountExpression = [NSExpression expressionForFunction:@"sum:" arguments:[NSArray arrayWithObject:keyPathExpression]];
 
     NSExpressionDescription *expressionDescription = [[NSExpressionDescription alloc] init];
-    [expressionDescription setName:@"sumOfAmount"];
+    [expressionDescription setName:@"sumOfItems"];
     [expressionDescription setExpression:sumOfCountExpression];
     [expressionDescription setExpressionResultType:NSFloatAttributeType];
 
-    [fetchRequest setPropertiesToFetch:@[@"paperName", @"currency", expressionDescription]];
-    [fetchRequest setPropertiesToGroupBy:@[@"paperName", @"currency"]];
+    [fetchRequest setPropertiesToFetch:@[@"paperName", expressionDescription]];
+    [fetchRequest setPropertiesToGroupBy:@[@"paperName"]];
     [fetchRequest setResultType:NSDictionaryResultType];
 
     NSSortDescriptor *sortByName = [[NSSortDescriptor alloc] initWithKey:@"paperName" ascending:YES];
@@ -51,14 +50,12 @@
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
 
     NSObject *info = [self.fetchedResultsController objectAtIndexPath:indexPath];
-    NSString *paperName = [info valueForKey:@"paperName" ];
-    NSString *sumOfAmount = [info valueForKey:@"sumOfAmount"];
-    NSString *currency = [info valueForKey:@"currency"];
-    NSString *combined = [NSString stringWithFormat:@"%@%@%@", sumOfAmount, @" ", currency];
+    NSString *paperName = [info valueForKey:@"paperName"];
+    NSString *sumOfItems = [info valueForKey:@"sumOfItems"];
 
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.textLabel.text = paperName;
-    cell.detailTextLabel.text = combined;
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@",sumOfItems];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

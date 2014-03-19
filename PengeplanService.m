@@ -4,17 +4,11 @@
 //
 
 #import "PengeplanService.h"
-#import "Transaction.h"
-#import "UNIRest.h"
 #import "LoginService.h"
-#import "RestKit.h"
 #import "AuthResponse.h"
-#import "AppDelegate.h"
 
 @implementation PengeplanService {
 }
-
-NSString *url = @"http://172.24.141.29:8080/api/user/";
 static PengeplanService *sharedPengeplanService = nil;    // static instance variable
 
 - (id)init {

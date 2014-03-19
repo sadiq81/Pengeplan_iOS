@@ -29,7 +29,8 @@
 }
 
 - (void)setupObjectManager {
-    NSString *baseUrl = @"http://172.24.141.29:8080/api/user";
+
+    NSString *baseUrl = @"http://10.0.1.3:8080/api/user";
     AFHTTPClient *httpClient = [[AFHTTPClient alloc] initWithBaseURL:[NSURL URLWithString:baseUrl]];
     RKObjectManager *manager = [[RKObjectManager alloc] initWithHTTPClient:httpClient];
     [manager.HTTPClient registerHTTPOperationClass:[AFJSONRequestOperation class]];
