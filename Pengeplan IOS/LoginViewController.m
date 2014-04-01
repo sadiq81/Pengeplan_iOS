@@ -55,6 +55,7 @@ NSString *pin;
         self.password.textColor = [UIColor blackColor];
         pin = nil;
         [[LoginService sharedLoginService] deleteAccounts];
+        
     }
 
 }

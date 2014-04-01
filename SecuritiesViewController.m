@@ -168,7 +168,9 @@
     }
 
     NSObject *transaction = [self.fetchedResultsController.fetchedObjects objectAtIndex:idx];
-    NSString *paperName = [[NSString stringWithFormat:@"%@", [transaction valueForKey:@"paperName"]] substringToIndex:3];
+
+    int length = [[NSString stringWithFormat:@"%@", [transaction valueForKey:@"paperName"]] length];
+    NSString *paperName = [[NSString stringWithFormat:@"%@", [transaction valueForKey:@"paperName"]] substringToIndex: length > 2 ? 3 : length];
     NSNumber *value = [NSNumber numberWithInt:[[NSString stringWithFormat:@"%@", [transaction valueForKey:@"sumOfAmount"]] floatValue]];
     NSNumber *percentage = @(([value floatValue] / [totalValue floatValue]) * 100);
 

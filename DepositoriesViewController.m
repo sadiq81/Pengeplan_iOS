@@ -50,10 +50,11 @@
     NSObject *info = [self.fetchedResultsController objectAtIndexPath:indexPath];
     NSString *ownedAccount = [[info valueForKey:@"ownedAccount"] substringToIndex:[[info valueForKey:@"ownedAccount"] length] > 10 ? 10 : [[info valueForKey:@"ownedAccount"] length]];
     ownedAccount = [ownedAccount substringToIndex:[ownedAccount rangeOfString:@"-" options:NSBackwardsSearch].location];
-    NSString *sumOfAmount = [info valueForKey:@"sumOfAmount"];
+    NSNumber *sumOfAmount = [info valueForKey:@"sumOfAmount"];
+    NSNumberFormatter *numberFormatter = [NSNumberFormatter new];
+    [numberFormatter setMaximumFractionDigits:2];
     //TODO get local currency from server
-    NSString *currency = @"DKK";
-    NSString *combined = [NSString stringWithFormat:@"%@%@%@", sumOfAmount, @" ", currency];
+    NSString *combined = [NSString stringWithFormat:@"%@ DKK", [numberFormatter stringFromNumber: sumOfAmount]];
 
     cell.textLabel.text = ownedAccount;
     cell.detailTextLabel.text = combined;
