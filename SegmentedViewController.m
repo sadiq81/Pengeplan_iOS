@@ -25,7 +25,9 @@
         self.uiViewController = uiViewController;
 
         self.uiTableView = uiTableView;
+
         self.uiTableView.delegate = self;
+
         self.uiTableView.dataSource = self;
         self.uiTableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
 
@@ -36,6 +38,7 @@
             exit(-1);  // Fail
         }
 
+        UIBezierPath *path;
         self.uiRefreshControl = [[UIRefreshControl alloc] init];
         [self.uiRefreshControl addTarget:self action:@selector(refreshView:) forControlEvents:UIControlEventValueChanged];
 

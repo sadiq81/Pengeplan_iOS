@@ -7,6 +7,7 @@
 
 
 @interface SegmentedViewController : NSObject <UITableViewDelegate, UITableViewDataSource> {
+
 @protected
     NSFetchedResultsController *_fetchedResultsController;
     UIViewController *_uiViewController;
